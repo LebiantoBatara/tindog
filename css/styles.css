@@ -58,17 +58,6 @@ h3{
 
 }
 
-@media (max-width:991px){
-  .title-image{
-    position: static;
-    transform: rotateX(0);
-    width: 60%;
-  }
-
-  #title{
-    text-align: center;
-  }
-}
 /* Features */
 #features{
   padding: 7% 15%;
@@ -166,4 +155,15 @@ h3{
 
 .footer-brand{
   margin: 3% 1.5%;
+}
+@media (max-width:991px){
+  .title-image{
+    position: static;
+    transform: rotateX(0);
+    width: 60%;
+  }
+
+  #title{
+    text-align: center;
+  }
 }
